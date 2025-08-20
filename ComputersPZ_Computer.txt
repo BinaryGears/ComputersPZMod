@@ -1,13 +1,13 @@
-module Computer {
+module ComputersPZ_Mod {
 	imports {
 		Base,
 	}
 	
-	item Computer{
+	item Computer {
 		DisplayCategory = Electronics,
 		Type			= Radio,
 		Icon			= Television,
-		Weight = 0.1,
+		Weight 			= 0.1,
 
 		DisplayName		= Computer,
 
@@ -23,5 +23,18 @@ module Computer {
 		IsHighTier       = FALSE,
 		WorldObjectSprite = applieances_television_01_4,
 		AcceptMediaType = 1,
+	}
+
+	item Uranium {
+		DisplayCategory = Material,
+		Type			= ,
+		Icon			= TZ_CharCoal,
+		Weight 			= 0.1,
+
+		DisplayName		= Uranium,
+
+		UseDelta        = 0.1,
+		WorldStaticModel = Charcoal_Ground,
+
 	}
 }
