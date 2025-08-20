@@ -21,6 +21,8 @@ module ComputersPZ_Mod {
 		IsTelevision     = TRUE,
 		UsesBattery      = FALSE,
 		IsHighTier       = FALSE,
+		minChannel		 = 1,
+		maxChannel 		 = 1,
 		WorldObjectSprite = applieances_television_01_4,
 		AcceptMediaType = 1,
 	}
