@@ -1,0 +1,27 @@
+module Computer {
+	imports {
+		Base,
+	}
+	
+	item Computer{
+		DisplayCategory = Electronics,
+		Type			= Radio,
+		Icon			= Television,
+		Weight = 0.1,
+
+		DisplayName		= Computer,
+
+		useWhileEquipped = FALSE,
+		DisappearOnUse   = FALSE,
+		TwoWay			 = FALSE,
+		TransmitRange	 = 0,
+		MicRange         = 0,
+		BaseVolumeRange  = 12,
+		IsPortable       = TRUE,
+		IsTelevision     = TRUE,
+		UsesBattery      = FALSE,
+		IsHighTier       = FALSE,
+		WorldObjectSprite = applieances_television_01_4,
+		AcceptMediaType = 1,
+	}
+}
