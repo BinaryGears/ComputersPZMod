@@ -1,1 +1,1 @@
-A mode for Project Zomboid that add computers, lua, and science.
+A mod for Project Zomboid that adds computers and science.
